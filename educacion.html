@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Hoja Vida Erwin Corrales</title>
+</head>
+<body>
+   
+   <header>
+    <img src="image/logocv.svg" alt="Logo CV Erwin     Corrales">
+    <h1>CURRICULUM VITAE ERWIN CORRALES</h1>
+    <h2>DATOS PERSONALES:</h2>
+    <h3>Nombres: Erwin David.</h3>
+    <h3>Apellidos: Corrales De La Rosa.</h3>
+    <h3>Fecha y Lugar De Nacimiento: Cartagena, 27 de Agosto de 1983.</h3>
+    </header>
+    
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="educacion.html">Educacion</a> |
+        <a href="experiencia.html">Experiencia</a>
+    </nav>
+    
+    <section>
+        <h2>Educacion:</h2>
+        <table border = 1 cellpadding = 8 cellspacing = 0>
+           <thead>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Programa</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+           </thead>
+           <tbody>
+                <tr>
+                   <td>1999</td>
+                   <td>Centro Cultural Colombo Americano</td>
+                   <td>English Language</td>
+                   <td>Cartagena, Bolivar</td>
+                   <td>Si</td>
+               </tr>
+               <tr>
+                   <td>2000</td>
+                   <td>Ciudad Escolar De Comfenalco</td>
+                   <td>Bachiller Académico</td>
+                   <td>Cartagena, Colombia</td>
+                   <td>Si</td>
+               </tr>
+               <tr>
+                   <td>2006</td>
+                   <td>Universidad Tecnologica De Bolivar</td>
+                   <td>Ingeniería Mecatrónica</td>
+                   <td>Cartagena, Colombia</td>
+                   <td>Si</td>
+               </tr>
+              
+           </tbody>
+           
+        </table>    
+        
+        <form action="">
+            <h2>Agregar Estudios</h2>
+            <label for="ano">Año:</label><br>
+            <select name="ano" id="ano">
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+            </select><br><br>
+            <label for="institucion">Institucion:</label><br>
+            <input type="text" name="institucion" required> *requerido.<br><br>
+            <label for="lugar">Lugar:</label><br>
+            <textarea name="lugar" id="" cols="30" rows="3"></textarea><br>
+            <label for="culmino">Culminó</label>
+            <input type="radio" name="culmino" value="si" checked >Si 
+            <input type="radio" name="culmino" value="no">No <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <br>        
+    
+   <footer>
+        <strong>CV Erwin Corrales De La Rosa &copy;2017 </strong><br>
+        <strong>Correo Electronico:</strong> <a href="mailto:e1max@hotmail.com">e1max@hotmail.com</a> <br>
+        <strong>Telefono:</strong> 3013882390 <br>
+        <a href="http://www.e1max.co/">www.e1max.co</a>
+    </footer>
+        
+</body>
+</html>
